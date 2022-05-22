@@ -51,6 +51,9 @@ gem "bootsnap", require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+
+  # Dontenv is a gem that allows you to load environment variables from a .env file.
+  gem 'dotenv-rails'
 end
 
 group :development do
